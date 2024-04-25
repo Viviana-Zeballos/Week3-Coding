@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Travel</title>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-info">
+    <div id="main-container" class="container-fluid pt-2 pb-2">
+    <div class="container-fluid mb-4">
+<!-- navbar starts here -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary px-2">
+        <a href="group-travel.html" class="navbar-brand m-0 h1">
+        <img class="d-inline-block align-top" src="./images/logo.png" width="30" height="30">
+        Adventure Awaits
+        </a>
+    <button
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    class="navbar-toggler"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+<!-- Created a button toogle -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="index.html" class="nav-link active">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a href="group-travel.html" class="nav-link active">
+                    Group Travel
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a href="contact-us.html" class="nav-link active">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </div>
+    <form class="d-flex">
+        <input type="text" class="form-control me-2">
+        <button type="submit" class="btn btn-primary">Search</button>
+
+    </form>
+    </nav>
+<!-- navbar ends here -->
+    </div>
+    </div>
+
+<div class="container-fluid">
+        <div class="text-center p-0">
+        <h1>Group Travel</h1>
+        <p>Please take a look at the table below for different pricing and inclusions. As of now we have 3 pricing tiers including: basic, comfort, and premium.</p>
+<!-- I added some style elements here for the table -->
+    <div class="container-fluid">
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Pricing Tiers</th>
+            <th>Accomodations</th>
+            <th>Meals</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>7 nights included</td>
+            <td>7 breakfast meals</td>
+        </tr>
+        <tr>
+            <td>Comfort</td>
+            <td>10 nights included</td>
+            <td>10 breakfast and lunch meals</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>10 nights included</td>
+            <td>Unlimited meals</td>
+        </tr>
+    </table>
+    </div>
+        </div>
+</div>
+
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
